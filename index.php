@@ -89,7 +89,7 @@ $_SESSION['aptno']=$result['AptNumber'];
 	          	<img class="one-third align-self-end order-md-last img-fluid" src="images/bg_2.png" alt="">
 		          <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
 		          	<div class="text mt-5">
-		          		<span class="subheading">Belleza</span>
+		          		<span class="subheading">Belleza nat</span>
 			            <h1 class="mb-4">Salon de Belleza ConfiguroWeb</h1>
 			            <p class="mb-4">Este salón ofrece enormes instalaciones con equipos de tecnología avanzada y un servicio de la mejor calidad. Aquí le ofrecemos el mejor tratamiento que nunca haya experimentado antes.</p>
 			            
