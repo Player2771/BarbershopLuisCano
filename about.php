@@ -50,7 +50,7 @@ include('includes/dbconnection.php');
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 d-flex">
-						<div class="p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/about.jpg);">
+						<div class="p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/logo.jpg);">
 				
 							
 							</a>

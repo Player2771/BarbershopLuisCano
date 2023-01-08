@@ -8250,9 +8250,9 @@ h1, h2, h3, h4, h5,
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
         color: #fff;
-        background: #f18c8e; } }
+        background: #080200; } }
   .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-    color: #f18c8e; }
+    color: #080200; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item.active > a {
         color: #fff; } }
@@ -8616,7 +8616,7 @@ h1, h2, h3, h4, h5,
   .hero-wrap.hero-wrap-2 {
     height: 600px; }
     .hero-wrap.hero-wrap-2 .overlay {
-      background: #f18c8e;
+      background: #C1C1C1;
       width: 100%;
       opacity: .3;
       height: 600px; }

@@ -8,7 +8,7 @@ include('includes/dbconnection.php');
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2 logo">CwEB | SPA</h2>
+              <h2 class="ftco-heading-2 logo">barbershop</h2>
               <?php
 
 $ret=mysqli_query($con,"select * from tblpage where PageType='aboutus' ");
@@ -59,7 +59,7 @@ while ($row=mysqli_fetch_array($ret)) {
           <div class="col-md-12 text-center">
 
             <p>
-  2020 &copy; ConfiguroWeb | SPA  </p>
+  Instituto Tecnológico Superior Progreso &copy; 2023</p>
           </div>
         </div>
       </div>
