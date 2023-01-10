@@ -62,7 +62,7 @@ if(isset($_POST['submit']))
 				<h3 class="title1">Olvido la contraseña</h3>
 				<div class="widget-shadow">
 					<div class="login-top">
-						<h4>Welcome back to BPMS AdminPanel ! </h4>
+						<h4>Porfavor introdusca sus datos </h4>
 					</div>
 					<div class="login-body">
 						<form role="form" method="post" action="">
@@ -77,7 +77,7 @@ if(isset($_POST['submit']))
 							<div class="forgot-grid">
 								
 								<div class="forgot">
-									<a href="index.php">Already have an account</a>
+									<a href="index.php">Ya tengo una cuenta</a>
 								</div>
 								<div class="clearfix"> </div>
 							</div>
