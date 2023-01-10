@@ -58,8 +58,8 @@ while ($row=mysqli_fetch_array($ret)) {
         <div class="row">
           <div class="col-md-12 text-center">
 
-            <p>
-  Instituto Tecnológico Superior Progreso &copy; 2023</p>
+
+          <p>Instituto Tecnológico Superior Progreso &copy; 2023</p>
           </div>
         </div>
       </div>
