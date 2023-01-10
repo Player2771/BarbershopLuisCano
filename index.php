@@ -165,7 +165,7 @@ $_SESSION['aptno']=$result['AptNumber'];
 						</div>
     			</div>
 					<div class="one-third">
-						<div class="img" style="background-image: url(images/bg-1.jpg);">
+						<div class="img" style="background-image: url(images/span.jpg);">
 						</div>
 					</div>
     		</div>
