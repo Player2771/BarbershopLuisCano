@@ -62,7 +62,7 @@ $_SESSION['aptno']=$result['AptNumber'];
 	  <?php include_once('includes/header.php');?>
     <!-- END nav -->
 
-    <section id="home-section" class="hero" style="background-image: url(images/bg.jpg);" data-stellar-background-ratio="0.5">
+    <section id="home-section" class="hero" style= data-stellar-background-ratio="0.5">
 		  <div class="home-slider owl-carousel">
 	      <div class="slider-item js-fullheight">
 	      	<div class="overlay"></div>
@@ -70,9 +70,9 @@ $_SESSION['aptno']=$result['AptNumber'];
 	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
 	          	<img class="one-third align-self-end order-md-last img-fluid" src="images/bg_1.png" alt="">
 		          <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-		          	<div class="text mt-5">
+		          	<div class="text ">
 		          		<span class="subheading">SPA ConfiguroWeb</span>
-			            <h1 class="mb-4">Ponte Bella</h1>
+			            <h1 class="mb-4">La Mejor opción</h1>
 			            <p class="mb-4">Nos enorgullecemos de nuestro trabajo de alta calidad y atención al detalle. Los productos que utilizamos son de marca de primera calidad.</p>
 			            
 			           
@@ -89,8 +89,8 @@ $_SESSION['aptno']=$result['AptNumber'];
 	          	<img class="one-third align-self-end order-md-last img-fluid" src="images/bg_2.png" alt="">
 		          <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
 		          	<div class="text mt-5">
-		          		<span class="subheading">Belleza nat</span>
-			            <h1 class="mb-4">Salon de Belleza ConfiguroWeb</h1>
+		          		<span class="subheading">Belleza</span>
+			            <h1 class="mb-4">Barbershop LuisCano</h1>
 			            <p class="mb-4">Este salón ofrece enormes instalaciones con equipos de tecnología avanzada y un servicio de la mejor calidad. Aquí le ofrecemos el mejor tratamiento que nunca haya experimentado antes.</p>
 			            
 			           
