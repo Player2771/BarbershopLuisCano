@@ -33,7 +33,7 @@ $_SESSION['aptno']=$result['AptNumber'];
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>CWEB||SPA</title>
+    <title>barbershopweb</title>
         
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
@@ -68,11 +68,11 @@ $_SESSION['aptno']=$result['AptNumber'];
 	      	<div class="overlay"></div>
 	        <div class="container-fluid p-0">
 	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<img class="one-third align-self-end order-md-last img-fluid" src="images/bg_1.png" alt="">
+	          	<img class="one-third align-self-end order-md-last img-fluid" src="images/peinando.jpg" alt="">
 		          <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
 		          	<div class="text ">
-		          		<span class="subheading">SPA ConfiguroWeb</span>
-			            <h1 class="mb-4">La Mejor opción</h1>
+		          		<span class="subheading">Atención por parte de su propietario</span>
+			            <h1 class="mb-4">Luis Cano</h1>
 			            <p class="mb-4">Nos enorgullecemos de nuestro trabajo de alta calidad y atención al detalle. Los productos que utilizamos son de marca de primera calidad.</p>
 			            
 			           
@@ -86,7 +86,7 @@ $_SESSION['aptno']=$result['AptNumber'];
 	      	<div class="overlay"></div>
 	        <div class="container-fluid p-0">
 	          <div class="row d-flex no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
-	          	<img class="one-third align-self-end order-md-last img-fluid" src="images/bg_2.png" alt="">
+	          	<img class="one-third align-self-end order-md-last img-fluid" src="images/cortando.jpg" alt="">
 		          <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
 		          	<div class="text mt-5">
 		          		<span class="subheading">Belleza</span>
