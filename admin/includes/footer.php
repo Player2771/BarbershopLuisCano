@@ -1,5 +1,5 @@
 <!--footer-->
     <div class="footer">
-       <p>&copy; 2020 ConfiguroWeb | Panel Administrativo.</p>
+       <p>Instituto Tecnológico Superior Progreso &copy; 2023</p>
     </div>
         <!--//footer-->

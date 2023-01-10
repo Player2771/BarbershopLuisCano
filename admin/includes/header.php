@@ -6,7 +6,7 @@
         <!--logo -->
         <div class="logo">
           <a href="index.php">
-            <h1>SPA</h1>
+            <h1>Barbershopweb</h1>
             <span>Panel Administrativo</span>
           </a>
         </div>
@@ -73,7 +73,7 @@ $name=$row['AdminName'];
             <li class="dropdown profile_details_drop">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
                 <div class="profile_img"> 
-                  <span class="prfil-img"><img src="images/logo2.png" alt="" width="50" height="60"> </span> 
+                  <span class="prfil-img"> </span> 
                   <div class="user-name">
                     <p><?php echo $name; ?></p>
                     <span>Administrador</span>
