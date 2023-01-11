@@ -30,7 +30,7 @@ if(isset($_POST['submit']))
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>SPA | Agregar Servicios</title>
+<title>agregar servicios</title>
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Bootstrap Core CSS -->
@@ -75,7 +75,7 @@ if(isset($_POST['submit']))
 					<h3 class="title1">Agregar Servicios</h3>
 					<div class="form-grids row widget-shadow" data-example-id="basic-forms"> 
 						<div class="form-title">
-							<h4>Servicios SPA:</h4>
+							<h4>Servicios:</h4>
 						</div>
 						<div class="form-body">
 							<form method="post">

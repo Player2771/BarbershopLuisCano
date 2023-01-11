@@ -6,7 +6,7 @@ include('includes/dbconnection.php');
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>SPA-Contacto</title>
+    <title>Contacto</title>
     
     
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
@@ -35,7 +35,7 @@ include('includes/dbconnection.php');
   <body>
 	   <?php include_once('includes/header.php');?>
 
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg-2.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
@@ -71,8 +71,8 @@ while ($row=mysqli_fetch_array($ret)) {
           		<div class="icon d-flex align-items-center justify-content-center">
           			<span class="icon-phone2"></span>
           		</div>
-          		<h3 class="mb-4">Celular de contaco</h3>
-	            <p><a href="tel://9992653455>+ <?php  echo $row['MobileNumber'];?></a></p>
+          		<h3 class="mb-4">Número de Contacto</h3>
+	            <p><a href="tel://1234567920">+ <?php  echo $row['MobileNumber'];?></a></p>
 	          </div>
           </div>
           <div class="col-md-3 d-flex">
@@ -81,7 +81,7 @@ while ($row=mysqli_fetch_array($ret)) {
           			<span class="icon-paper-plane"></span>
           		</div>
           		<h3 class="mb-4">Correo Electrónico</h3>
-	            <p><a href="mailto:barberialuiscano@hotmail.com"><?php  echo $row['Email'];?></a></p>
+	            <p><a href="mailto:hola@cweb.com"><?php  echo $row['Email'];?></a></p>
 	          </div>
           </div>
           <div class="col-md-3 d-flex">

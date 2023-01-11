@@ -37,7 +37,7 @@ include('includes/dbconnection.php');
   <body>
 	  <?php include_once('includes/header.php');?>
 
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg-2.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
@@ -58,7 +58,7 @@ include('includes/dbconnection.php');
           	<h1 class="big">Precios</h1>
           	<span class="subheading">Precios</span>
             <h2 class="mb-4">Precio de Nuestros Servicios</h2>
-            <p>Tenemos un gran pull de servicios para tu deleite, sabemos que te encantará disfrutar de nuestros Servicios</p>
+            <p>Tenemos una gran variedad de servicios a tu disposición</p>
           </div>
         </div>
             <table class="table table-bordered"> <thead> <tr> <th>#</th> <th>Servicios</th> <th>Precios</th> </tr> </thead> <tbody>
