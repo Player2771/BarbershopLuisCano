@@ -12,7 +12,7 @@ if (strlen($_SESSION['bpmsaid']==0)) {
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>SPA | Administrar Servicios</title>
+<title> Administrar Servicios</title>
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Bootstrap Core CSS -->
@@ -62,7 +62,8 @@ if (strlen($_SESSION['bpmsaid']==0)) {
 						<h4>Actualizar Servicios:</h4>
 						<table class="table table-bordered"> <thead> <tr> <th>#</th> <th>Nombre de Servicio</th> <th>Precio de Servicio</th> <th>Fecha de Creación</th><th>Acción</th> </tr> </thead> <tbody>
 <?php
-$ret=mysqli_query($con,"select *from  tblservices");
+$ret=mysqli_query($con," select *from  tblservices");
+//$del=mysqli_query(con," create trigger begin ");
 $cnt=1;
 while ($row=mysqli_fetch_array($ret)) {
 

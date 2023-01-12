@@ -17,7 +17,7 @@ if(isset($_POST['submit']))
     if ($query) {
     	echo "<script>alert('Servicio ha sido agregado satisfactoriamente.');</script>"; 
     		echo "<script>window.location.href = 'add-services.php'</script>";   
-    $msg="";
+    $msg="servicio";
   }
   else
     {
@@ -60,6 +60,19 @@ if(isset($_POST['submit']))
 <link href="css/custom.css" rel="stylesheet">
 <!--//Metis Menu -->
 </head> 
+ <script type="text/javascript" >
+	function confirmarcita(){
+	var respuesta = confirm("está seguro de agregar cita");
+		if respuesta=true
+		{
+			return true;
+		}
+		else 
+		{
+			return false;
+		}
+	}
+  </script>
 <body class="cbp-spmenu-push">
 	<div class="main-content">
 		<!--left-fixed -navigation-->
@@ -86,7 +99,7 @@ if(isset($_POST['submit']))
   
 							 <div class="form-group"> <label for="exampleInputEmail1">Nombre de Servicio</label> <input type="text" class="form-control" id="sername" name="sername" placeholder="Nombre de Servicio" value="" required="true"> </div> <div class="form-group"> <label for="exampleInputPassword1">Costo</label> <input type="text" id="cost" name="cost" class="form-control" placeholder="Costo" value="" required="true"> </div>
 							
-							  <button type="submit" name="submit" class="btn btn-default">Agregar</button> </form> 
+							  <button type="submit" name="submit" class="btn btn-default" onclick="return=confirmarcita()">Agregar</button> </form> 
 						</div>
 						
 					</div>

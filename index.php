@@ -17,6 +17,7 @@ if(isset($_POST['submit']))
     $query=mysqli_query($con,"insert into tblappointment(AptNumber,Name,Email,PhoneNumber,AptDate,AptTime,Services) value('$aptnumber','$name','$email','$phone','$adate','$atime','$services')");
     if ($query) {
 $ret=mysqli_query($con,"select AptNumber from tblappointment where Email='$email' and  PhoneNumber='$phone'");
+
 $result=mysqli_fetch_array($ret);
 $_SESSION['aptno']=$result['AptNumber'];
  echo "<script>window.location.href='thank-you.php'</script>";	
@@ -58,6 +59,7 @@ $_SESSION['aptno']=$result['AptNumber'];
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
+ 
   <body>
 	  <?php include_once('includes/header.php');?>
     <!-- END nav -->
@@ -157,8 +159,9 @@ $_SESSION['aptno']=$result['AptNumber'];
 			                </div>
 			              </div>
 				          </div>
-				          <div class="form-group">
-			              <input type="submit" name="submit" value="HAZ UNA CITA" class="btn btn-primary">
+				          <div class="form-group" >
+			              <input type="submit" name="submit" value="HAZ UNA CITA" class="btn btn-primary" onclick="return=confirmarcita()">
+						   
 			            </div>
 			          </form>
 		          </div>

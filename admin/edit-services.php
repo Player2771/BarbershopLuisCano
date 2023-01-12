@@ -58,6 +58,22 @@ if(isset($_POST['submit']))
 <link href="css/custom.css" rel="stylesheet">
 <!--//Metis Menu -->
 </head> 
+ 
+ <script type="text/javascript">
+	function confirmaredit()
+	{
+	var respuesta = confirm("esta seguro de editar servicio??");
+		if (respuesta == true)
+		{
+			return true;
+		}
+		else 
+		{
+			return false;
+		}
+	}
+  </script>
+
 <body class="cbp-spmenu-push">
 	<div class="main-content">
 		<!--left-fixed -navigation-->
@@ -73,7 +89,7 @@ if(isset($_POST['submit']))
 					<h3 class="title1">Actualizar Servicios</h3>
 					<div class="form-grids row widget-shadow" data-example-id="basic-forms"> 
 						<div class="form-title">
-							<h4>Actualizar Servicios SPA:</h4>
+							<h4>Actualizar Servicios:</h4>
 						</div>
 						<div class="form-body">
 							<form method="post">
@@ -83,6 +99,7 @@ if(isset($_POST['submit']))
   <?php
  $cid=$_GET['editid'];
 $ret=mysqli_query($con,"select * from  tblservices where ID='$cid'");
+
 $cnt=1;
 while ($row=mysqli_fetch_array($ret)) {
 
@@ -91,7 +108,8 @@ while ($row=mysqli_fetch_array($ret)) {
   
 							 <div class="form-group"> <label for="exampleInputEmail1">Nombre Servicio</label> <input type="text" class="form-control" id="sername" name="sername" placeholder="Nombre Servicio" value="<?php  echo $row['ServiceName'];?>" required="true"> </div> <div class="form-group"> <label for="exampleInputPassword1">Costo</label> <input type="text" id="cost" name="cost" class="form-control" placeholder="Costo" value="<?php  echo $row['Cost'];?>" required="true"> </div>
 							 <?php } ?>
-							  <button type="submit" name="submit" class="btn btn-default">Actualizar</button> </form> 
+							  <button type="submit" name="submit" class="btn btn-default" onclick="return confirmaredit()">Actualizar</button>
+							  </form> 
 						</div>
 						
 					</div>
@@ -121,6 +139,7 @@ while ($row=mysqli_fetch_array($ret)) {
 				}
 			}
 		</script>
+  
 	<!--scrolling js-->
 	<script src="js/jquery.nicescroll.js"></script>
 	<script src="js/scripts.js"></script>
